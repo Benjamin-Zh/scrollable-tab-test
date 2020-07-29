@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  white-space: nowrap;
+  display: inline-block;
+  transform: translate3d(0, 0, 0);
+  transition: transform .2s ease;
+}
+
+.item {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background-color: #f00;
+  transform: translate3d(0, 0, 0);
+  transition: transform .2s ease;
+}
